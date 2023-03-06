@@ -18,7 +18,7 @@ import markupToJSON from 'markuptojson'
 const markupToJSON require('markuptojson')
 
 // -- HTML TO JSON -- //
-const HTML = "<h1 class="title" id="mainTitle">Hello World <span>Master</span></h1>"
+const HTML = "<h1 class='title' id='mainTitle'>Hello World <span>Master</span></h1>"
 const JSON = markupToJSON.htmlToJSON(HTML)
 console.log(JSON)
 /* Output
