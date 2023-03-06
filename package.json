@@ -1,0 +1,35 @@
+{
+  "name": "markuptojson",
+  "version": "1.0.0",
+  "description": "Convert HTML to JSON and like json to html",
+  "types": "./types/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "typings": "./types/index.d.ts",
+  "repository": {
+    "url": "https://github.com/alexandermontillarivera/markuptojson"
+  },
+  "scripts": {
+    "test": "vitest",
+    "report": "vitest --ui",
+    "prepare": "npm run build",
+    "build": "tsc --project tsconfig.esm.json & tsc --module commonjs --project tsconfig.cjs.json"
+  },
+  "keywords": ["HTML convert to JSON", "JSON HTML", "JSON", "HTML", "Transformation HTML to JSON"],
+  "author": "Alexander Montilla Rivera",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "eslint": "^8.35.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.5",
+    "vitest": "^0.29.2"
+  },
+  "exports": {
+    "default": "./dist/cjs/index.js",
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "title": {
+    "html": "<h1>Hello World</h1>",
+    "json": [
+      {
+        "tagName": "h1",
+        "tagAttrs": {},
+        "children": [],
+        "content": "Hello World"
+      }
+    ]
+  },
+  "titleAttributes": {
+    "html": "<h1 id='mainTitle' class='iam-main-title'>Hello World</h1>",
+    "json": [
+      {
+        "tagName": "h1",
+        "tagAttrs": {
+          "class": "iam-main-title",
+          "id": "mainTitle"
+        },
+        "children": [],
+        "content": "Hello World"
+      }
+    ]
+  },
+  "twoChildToptree": {
+    "html": "<header class='header-content'>content header</header><section class='section-of-content'>my content</section>",
+    "json": [
+      {
+        "tagName": "header",
+        "tagAttrs": {
+          "class": "header-content"
+        },
+        "children": [],
+        "content": "content header"
+      },
+      {
+        "tagName": "section",
+        "children": [],
+        "content": "my content",
+        "tagAttrs": {
+          "class": "section-of-content"
+        }
+      }
+    ]
+  },
+  "twoChildToptreeAndElementsChild": {
+    "html": "<div class='elements-top'><ul><li>Hello</li></ul></div><div class='elements-top'><ul><li>Hello</li></ul></div>",
+    "json": [
+      {
+        "tagName": "div",
+        "tagAttrs": {
+          "class": "elements-top"
+        },
+        "children": [
+          {
+            "tagName": "ul",
+            "tagAttrs": {},
+            "children": [
+              {
+                "tagName": "li",
+                "content": "Hello",
+                "tagAttrs": {},
+                "children": []
+              }
+            ],
+            "content": ""
+          }
+        ],
+        "content": ""
+      },
+      {
+        "tagName": "div",
+        "tagAttrs": {
+          "class": "elements-top"
+        },
+        "children": [
+          {
+            "tagName": "ul",
+            "tagAttrs": {},
+            "children": [
+              {
+                "tagName": "li",
+                "content": "Hello",
+                "tagAttrs": {},
+                "children": []
+              }
+            ],
+            "content": ""
+          }
+        ],
+        "content": ""
+      }
+    ]
+  }
+}
