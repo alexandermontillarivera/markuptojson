@@ -6,7 +6,6 @@ import data from './data.json'
 describe('Convert single html element string to json', () => {
   test('Has array of html element content in object a single element no attributes', () => {
     const result = htmlToJSON(data.title.html)
-    console.log(result)
     expect(result).toStrictEqual(data.title.json)
   })
 })
