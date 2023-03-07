@@ -42,13 +42,3 @@ export const htmlToJSON = (html: string): JsonDBO[] => {
   }
   return matches
 }
-
-module.exports = {
-  htmlToJSON,
-  jsonToHTML
-}
-
-module.exports.default = {
-  htmlToJSON,
-  jsonToHTML
-}

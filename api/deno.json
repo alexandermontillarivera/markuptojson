@@ -1,0 +1,24 @@
+{
+  "importMap": "./imports.json",
+  "lint": {
+    "rules": {
+      "exclude": [
+        "no-explicit-any",
+        "ban-types",
+        "no-local",
+        "no-inferrable-types",
+        "no-prototype-builtins",
+        "no-cond-assign"
+      ]
+    }
+  },
+  "fmt": {
+    "options": {
+      "singleQuote": true
+    }
+  },
+  "compilerOptions": {
+    "noImplicitAny": false
+  },
+  "lock": false
+}

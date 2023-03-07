@@ -7,11 +7,4 @@ const markuptojson: MarkupToJSON = {
   jsonToHTML
 }
 
-module.exports = markuptojson
-module.exports = {
-  htmlToJSON,
-  jsonToHTML
-}
-module.exports.default = markuptojson
-
 export default markuptojson
