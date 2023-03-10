@@ -8,7 +8,9 @@
         "no-local",
         "no-inferrable-types",
         "no-prototype-builtins",
-        "no-cond-assign"
+        "no-cond-assign",
+        "strict-boolean-expressions",
+        "@typescript-eslint/strict-boolean-expressions"
       ]
     }
   },

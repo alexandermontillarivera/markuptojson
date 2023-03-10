@@ -8,3 +8,4 @@ tsconfig.esm.json
 tsconfig.json
 api
 src
+mod.ts

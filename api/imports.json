@@ -1,6 +1,10 @@
 {
   "imports": {
     "https://esm.sh/": "https://esm.sh/",
-    "https://cdn.skypack.dev/": "https://cdn.skypack.dev/"
+    "https://cdn.skypack.dev/": "https://cdn.skypack.dev/",
+    "opine/": "https://deno.land/x/opine@2.3.3/",
+    "colors/": "https://deno.land/x/colorify@1.0.5/",
+    "cors/": "https://deno.land/x/cors@v1.2.2/",
+    "markuptojson/": "https://esm.sh/markuptojson@1.0.3/"
   }
 }
