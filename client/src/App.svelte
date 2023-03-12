@@ -506,4 +506,11 @@
 			justify-content: center;
 		}
 	}
+
+  @media (max-width: 500px){
+    #creator img {
+      width: 200px;
+      height: 200px;
+    }
+  }
 </style>
