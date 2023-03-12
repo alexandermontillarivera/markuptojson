@@ -3,7 +3,6 @@ import { fg } from 'colors/mod.ts'
 import { opineCors } from 'cors/mod.ts'
 import config from './config.ts'
 import { htmlToJSON, jsonToHTML, type JsonDBO } from 'markuptojson/'
-
 const app = opine()
 
 app.use(json({ limit: '100mb' }))

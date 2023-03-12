@@ -1,0 +1,10 @@
+import 'normalize.css'
+import './global.css'
+import '@picocss/pico'
+import App from './App.svelte'
+
+const app = new App({
+  target: document.getElementById('app')
+})
+
+export default app
