@@ -12,6 +12,9 @@
 		<li>
 			<a target="_blank" href="https://fontawesome.com/icons">Icons: Font Awesome</a>
 		</li>
+    <li>
+			<a target="_blank" href="https://picocss.com/">UI Framework: Pico.CSS</a>
+		</li>
 	</ul>
 </footer>
 
