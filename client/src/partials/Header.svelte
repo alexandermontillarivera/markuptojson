@@ -42,4 +42,11 @@
       color: #FFF;
     }
 	}
+
+  @media (max-width: 991px) {
+    ul{
+      width: 104%;
+      justify-content: center;
+    }
+  }
 </style>
